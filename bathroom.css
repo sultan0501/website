@@ -1,0 +1,122 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ .wrapper {
+    width: 100%;
+    height: 670px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./img/bathroom.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+
+ .nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+ }
+ .list {
+   list-style: none;
+   display: flex;
+   padding: 10px;
+   transform: translateX(-60px);
+ }
+ .link {
+  
+   text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 17px;
+ }
+
+ .word {
+   font-size: 50px;
+  margin: 40px;
+  color: white;
+  transform: translateX(40px);
+ }
+
+
+ .nav .link:hover{ 
+   background: transparent;
+   color: white;
+   border-bottom: 4px solid green;
+ }
+
+ .word1 {
+   font-size: 90px;
+   color: white;
+ 
+  
+ }
+
+ .design {
+   text-align: center;
+   transform: translateY(150px);
+ }
+
+ button {
+   color: white;
+   background: black;
+   margin-top: 16px;
+   width: 200px;
+   height: 30px;
+ font-size: 20px;
+ border-radius: 8px;
+ }
+
+ button:hover {
+ color: black;
+   background: white;
+   
+  
+ }
+ 
+
+ 
+
+
+ .footer {
+   width: 100%;
+   height: 70px;
+   background:black;
+   color: white;
+   
+ }
+
+ .footer_nav {
+   display: flex;
+
+ }
+
+ .word2 {
+  margin: 15px 15px;
+ }
+
+.text1 {
+   font-size: 20px;
+   margin: 25px 15px;
+}
+
+.logo {
+   width: 60px;
+   height: 30px;
+  
+   
+}
+.footer_nav .text1:hover{
+   background: transparent;
+   border-bottom: 2px solid green;
+   color: green;
+}
+
+.footer_nav .word2:hover {
+   background: transparent;
+   border-bottom: 2px solid green;
+   color: green;
+}
